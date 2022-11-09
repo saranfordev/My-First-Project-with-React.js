@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+.app-section {
+  padding: 2rem;
+}
+.app-container {
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+.app-grid-item h4{
+  width: auto;
+  text-align: center;
+}
